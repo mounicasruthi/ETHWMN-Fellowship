@@ -1,15 +1,10 @@
-# Basic Sample Hardhat Project
+# Using Hardhat 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Learnings from this module:
 
-Try running some of the following tasks:
+Creating a Hardhat project and configuring it.
+Creating smart contracts.
+Writing tests for the contracts using Ethers.js and Waffle.
+Debugging Solidity using Hardhat Network.
+Deploying the contracts to Hardhat Network and Ethereum testnets.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
